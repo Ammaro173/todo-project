@@ -1,0 +1,74 @@
+/* header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+* {
+  font-size: 24px;
+  font-family: fantasy;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+body {
+  background-image: url("https://previews.123rf.com/images/mangpor2004/mangpor20041605/mangpor2004160500099/56383918-to-do-list-background-template.jpg");
+  background-size: cover;
+}
+
+ul {
+  display: flex;
+  /* width: 100vw;
+  height: 20%; */
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  list-style: none;
+}
+/* #My_logo {
+  width: 200px;
+  height: 100%;
+} */
+
+ul a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  gap: 10px;
+}
+
+table,
+th,
+tr,
+td {
+  width: 600px;
+  border: 1px solid black;
+}
+.I_Dont_Give_Up img {
+  width: 500px;
+  margin-top: 80px;
+  /* box-shadow: */
+}
+td,
+th {
+  padding: 40px;
+}
+
+p {
+  text-align: center;
+}
+
+.Get_Up_Now img {
+  width: 500px;
+  margin-top: 80px;
+}
+/* .about{} */
+
+.DM {
+  bottom: 1%;
+  left: 130px;
+  position: absolute;
+}
