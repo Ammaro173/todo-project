@@ -15,7 +15,7 @@ main {
 }
 
 body {
-  background-image: url("https://previews.123rf.com/images/mangpor2004/mangpor20041605/mangpor2004160500099/56383918-to-do-list-background-template.jpg");
+  background-image: url('https://previews.123rf.com/images/mangpor2004/mangpor20041605/mangpor2004160500099/56383918-to-do-list-background-template.jpg');
   background-size: cover;
 }
 
@@ -65,10 +65,25 @@ p {
   width: 500px;
   margin-top: 80px;
 }
+
+.wtf {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 150px;
+}
+.bs {
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* .about{} */
 
-.DM {
+/* .DM {
   bottom: 1%;
   left: 130px;
   position: absolute;
-}
+} */
