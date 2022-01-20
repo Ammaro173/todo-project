@@ -1,0 +1,14 @@
+{
+"extends": [ "airbnb" , "Prettier" , "plugin:node/recommended"],
+
+"plugins": ["prettier"],
+
+"rules": {
+  "Prettier/Prettier":"error",
+
+  "no-unused-vars": "warn",
+  
+  "no-console": "warn",
+
+}
+}
